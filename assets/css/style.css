@@ -1211,7 +1211,7 @@ section.newsletter-jg {
   .newsletter-form div input {
     height: 50px;
     margin-top: 0px;
-    margin-bottom: -21px;
+    /* margin-bottom: -21px; */
   }
   .newsletter-submit button {
     padding: 15px;
