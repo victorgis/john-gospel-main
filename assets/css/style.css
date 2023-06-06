@@ -530,32 +530,75 @@ div.jg-hero-section-details h2 {
 }
 
 @media (max-width: 992px) {
-  #hero h1 {
-    font-size: 36px;
-    line-height: 42px;
-    width: 100%;
-  }
-
-  #hero h2 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  #hero .hero-img {
-    max-width: 90%;
-  }
-  /* .hero-img-main {
-    display: none;
-  } */
-  /* .hero-img-main-short {
-    display: block;
-  } */
+    section.main-hero {
+      margin-top: 0px;
+      padding-bottom: 0px;
+    }
+    .hero-img-main {
+      display: none;
+    }
+    .jg-hero-section {
+      padding: 0px 0px;
+    }
+    .hero-img-main-short {
+      display: block;
+      text-align: center;
+    }
+    div.jg-hero-section-details {
+      position: absolute;
+      bottom: 0;
+      color: #ffff;
+      padding-bottom: 40px;
+      text-align: center;
+      background: linear-gradient(180deg, rgba(64, 64, 64, 0) 0%, #000000 100%);
+    }
+    div.hero-details {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    div.jg-hero-section-details h1 {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+    }
+    div.jg-hero-section-details h2 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+    }
+    .jg-hero-section-details p {
+      padding: 0px 20px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+    }
+    .jg-hero-section-details div {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      padding: 8px 8px;
+      width: 192px;
+      margin: auto;
+      color: #fff;
+      border: #fff solid 1px;
+      border-radius: 5px;
+      /* background: #fff; */
+    }
 }
 
 @media (max-height: 768px) {
-  #hero {
+  /* #hero {
     height: auto;
-  }
+  } */
   section.main-hero {
     margin-top: 0px;
     padding-bottom: 0px;
@@ -706,6 +749,30 @@ section {
   color: #fff;
   font-weight: 600;
   font-size: 64px;
+}
+
+@media (max-width: 992px) {
+  .meet-john {
+    height: 157px;
+  }
+  .meet-details {
+    position: absolute;
+    top: 50%;
+    left: 130px;
+    transform: translate(-50%, -50%);
+    
+  }
+  .meet-details h1 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .meet-details h2 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .meet-details img {
+    width: 59px;
+  }
 }
 
 @media (max-height: 768px) {
