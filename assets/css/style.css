@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #3b4ef8;
+  background: #540D6E;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #6272f9;
+  background: #60356f;
   color: #fff;
 }
 
@@ -174,7 +174,7 @@ nav ul li a.menu-btn:hover {
   }
 }
 
-@media (max-height: 768px) {
+@media (max-width: 768px) {
   nav ul li a.menu-btn {
     margin-left: 20px;
   }
@@ -262,6 +262,8 @@ nav ul li a.menu-btn:hover {
   padding: 10px 20px;
   text-transform: none;
   font-weight: 500;
+  background-color: rgba(45, 64, 95, .7);
+  color: #fff;
 }
 
 .navbar .dropdown ul a i {
@@ -271,7 +273,7 @@ nav ul li a.menu-btn:hover {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #3b4ef8;
+  color: #ccc;
 }
 
 .navbar .dropdown:hover>ul {
@@ -601,7 +603,7 @@ div.jg-hero-section-details h2 {
     }
 }
 
-@media (max-height: 768px) {
+@media (max-width: 768px) {
   /* #hero {
     height: auto;
   } */
@@ -781,7 +783,7 @@ section {
   }
 }
 
-@media (max-height: 768px) {
+@media (max-width: 768px) {
   .meet-john {
     height: 157px;
   }
@@ -900,7 +902,7 @@ section.who-is-jg {
   }
 }
 
-@media (max-height: 768px) {
+@media (max-width: 768px) {
   /* section.who-is-jg {} */
   .who-is-jg-img {
     display: none;
@@ -1038,7 +1040,7 @@ section.value-section {
   }
 }
 
-@media (max-height: 768px) {
+@media (max-width: 768px) {
   .my-values {
     /* width: 948px; */
     margin-right: 10px;
@@ -1185,7 +1187,7 @@ div.tes {
   }
 }
 
-@media (max-height: 768px) {
+@media (max-width: 768px) {
   .tes h1 {
     font-weight: 500;
     font-size: 32px;
@@ -1268,7 +1270,7 @@ div.learn-btn {
   line-height: 24px;
 }
 
-@media (max-height: 768px) {
+@media (max-width: 768px) {
   
 
   .explore-h1 h1 {
