@@ -1,248 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Blueprint</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Blueprint</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.svg" rel="icon" />
+    <link href="assets/img/apple-touch-icon.svg" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.svg" rel="icon">
-  <link href="assets/img/apple-touch-icon.svg" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Krub:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Krub:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Bikin
   * Updated: Mar 10 2023 with Bootstrap v5.2.3
   * Template URL: https://bootstrapmade.com/bikin-free-simple-landing-page-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- <h1 class="logo"><a href="index.html">Bikin</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html" class="logo"
+          ><img src="assets/img/logo.svg" alt="" class="img-fluid"
+        /></a>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto active" href="index.html#main-hero"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="./tribeone/index.html"
+                >Tribe1%</a
+              >
+            </li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>My Offerings</span> <i class="bi bi-caret-down-fill"></i
+              ></a>
+              <ul>
+                <li><a href="blueprint.html">Blueprint Course</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Shop</span> <i class="bi bi-caret-down-fill"></i
+              ></a>
+              <ul>
+                <li><a href="#">Coming soon</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-link scrollto menu-btn" href="/contact-form.html"
+                >Book Me</a
+              >
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
 
-      <!-- <h1 class="logo"><a href="index.html">Bikin</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo"><img src="assets/img/logo.svg" alt="" class="img-fluid"></a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="index.html#main-hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="./tribeone/index.html">Tribe1%</a></li>
-          <li><a class="nav-link scrollto" href="#">My Offerings</a></li>
-          <li class="dropdown"><a href="#"><span>My Offerings</span> <i class="bi bi-caret-down-fill"></i></a>
-            <ul>
-              <li><a href="blueprint.html">Blueprint Course</a></li>
-  
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#">Shop</a></li>
-          <li><a class="nav-link scrollto menu-btn" href="/contact-form.html">Book Me</a></li>
-          
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-      <!-- .navbar -->
-
-    </div>
-  </header>
-  <!-- End Header -->
-
-  <main id="main">
-    <section id="blueprint-hero" class="blueprint-hero pt-5">
-      <div class="container pt-5">
-        <div class="row ">
-          <div class="col-md-6 order-md-1 blueprint-section-details " data-aos="fade-right" data-aos-delay="100">
-            <!-- <div class="blueprint-section"> -->
+    <main id="main">
+      <section id="blueprint-hero" class="blueprint-hero pt-5">
+        <div class="container pt-5">
+          <div class="row">
+            <div
+              class="col-md-6 order-md-1 blueprint-section-details"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <!-- <div class="blueprint-section"> -->
               <h1>
                 <s>Goal Setting</s>
                 Growth Planning
               </h1>
-              <p class="mt-5">Get Better Results Faster Using The 2024 Blueprint.</p>
+              <p class="mt-5">
+                Get Better Results Faster Using The 2024 Blueprint.
+              </p>
               <div class="blueprint-btn mt-5">
-                <a href="#" class="blueprint-btn1 ">Sign up</a> <a href="#" class="blueprint-btn2">Learn more</a>
-              </div>
-          </div>
-          <div class="col-md-6 order-md-1 blueprint-section-img pt-5 " data-aos="fade-left" data-aos-delay="100">
-              <img src="assets/img/blueprint-img.png" class="img-fluid" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- ======= note Section ======= -->
-    <section id="about" class="section-note">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-            <img src="./assets/img/blueprint-note.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 note-details">
-            <p>You should be tired of New Year resolutions and the traditional approach to goal setting that rarely works.</p>
-            <p>It's time to shift your mindset and embrace a more dynamic strategy. </p>
-            <p>The <b>2024 Blueprint [Growth Planning Workshop]</b> is the proven strategy that will help you smash your GOALS in 2024 while maintaining a GROWTH culture all year long.</p>
-          </div>
-        </div>
-        
-      </div>
-    </section>
-    <!-- End About Section -->
-
-    <!-- ======= note Section ======= -->
-    <section id="about" class="goal-setting">
-      <div class="container text-center">
-        <h2 class="sizeable-text">Why Use Growth Planning instead of Goal Setting?</h2>
-        <div class="setting-container">
-          <div class="con-1">
-            <h2>This Is Beyond Traditional Goals</h2>
-            <span class="span-line-1"></span>
-            <p>Say goodbye to the limitations of traditional goal setting. Discover the power of growth planning, a dynamic approach that guarantees better and faster results. </p>
-          </div>
-          <div class="con-2">
-            <h2>Predictable Success In 2024</h2>
-            <span class="span-line-2"></span>
-            <p>Goals can be static, but growth is continuous. Learn how to cultivate a mindset focused on continual improvement and predictable success. </p>
-          </div>
-          <div class="con-3">
-            <h2>A Personalized Roadmap To A Better Year </h2>
-            <span class="span-line-3"></span>
-            <p>Discover a unique system to craft your personalized road map for growth in your personal life, career, business, and finance. </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======= note Section ======= -->
-    <section id="about" class="what-you-get">
-      <div class="container text-center ">
-        <h2 class="sizeable-text">What You Will Get In This Course</h2>
-        
-        <div class="wyg mt-5">
-          <!-- content  -->
-          <div class="wyg-container-1">
-            <div class="wyg-heading">
-              <img src="./assets/img/wyg-1.svg" alt="">
-              <h3>Strategic Roadmap for Growth in 2024</h3>
-            </div>
-            <p class="m-3">Uncover the framework behind a better and faster result. Develop a personalized growth plan tailored to your personal or professional needs.</p>
-          </div>
-          <div class="wyg-container-1">
-            <div class="wyg-heading">
-              <img src="./assets/img/wyg-2.svg" alt="">
-              <h3>Growth Planning Workshop </h3>
-            </div>
-            <p class="m-3">Utilize the 3S framework you will learn in this event to design a personalized growth plan for any area of your life.</p>
-          </div>
-          <div class="wyg-container-1">
-            <div class="wyg-heading">
-              <img src="./assets/img/wyg-3.svg" alt="">
-              <h3>Community Support & Accountability  </h3>
-            </div>
-            <p class="m-3">You will gain access to an online community of growth enthusiasts and administrators who will keep you accountable for your growth plan all year long. </p>
-          </div>
-          <div class="wyg-container-1">
-            <div class="wyg-heading">
-              <img src="./assets/img/wyg-4.svg" alt="">
-              <h3>Quarterly Reviews   </h3>
-            </div>
-            <p class="m-3">A one-time payment will allow you to review your growth plan with us and track your progress every quarter through 2024. </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section-seat">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6" style="text-align: right;">
-            <img src="./assets/img/secure-seat.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-6 ">
-            <div class="seat-details">
-              <h2>Ready to Access Your Blueprint for Success in 2024?</h2>
-              <p>Sign up for the <b>Growth Planning Workshop</b> and chart your course for success in 2024.</p>
-              <p>Break free from the limitations of traditional goal setting and embrace the dynamic power of growth planning.</p>
-              <div class="seat-btn">
-                Secure Your Blueprint Seat Now
+                <a href="#" class="blueprint-btn1">Sign up</a>
+                <a href="#" class="blueprint-btn2">Learn more</a>
               </div>
             </div>
-            
+            <div
+              class="col-md-6 order-md-1 blueprint-section-img pt-5"
+              data-aos="fade-left"
+              data-aos-delay="100"
+            >
+              <img
+                src="assets/img/blueprint-img.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="about" class="bonus">
-      <div class="container text-center">
-        <h2 class="bonus-text-h2">Bonus!</h2>
-        <p class="bonus-text-p">I've got more for you! You Get These 2 Additional Bonuses Too When You Join <span style="color: #540d6e;"><b> The Blueprint Today! </b></span></p>
-
-        <div class="bonus-container">
+      <!-- ======= note Section ======= -->
+      <section id="about" class="section-note">
+        <div class="container">
           <div class="row">
-            <div class="col-md-4">
-              <img src="./assets/img/bonus-1.jpg" alt="">
+            <div class="col-md-5">
+              <img
+                src="./assets/img/blueprint-note.jpg"
+                class="img-fluid"
+                alt=""
+              />
             </div>
-            <div class="col-md-8">
-              <div class="bonus-details">
-                <h3>Pre-Order My New Book at a 60% discount </h3>
-                <p>I'll be spending the better part of 2024 working on my new book <b> "Strategies, Structures & Systems: Developing a Growth Plan."</b>  This book will serve as a practical guide to creating a growth plan for any area of your life.</p>
-           
-              </div>
-               </div>
+            <div class="col-md-7 note-details">
+              <p>
+                You should be tired of New Year resolutions and the traditional
+                approach to goal setting that rarely works.
+              </p>
+              <p>
+                It's time to shift your mindset and embrace a more dynamic
+                strategy. 
+              </p>
+              <p>
+                The <b>2024 Blueprint [Growth Planning Workshop]</b> is the
+                proven strategy that will help you smash your GOALS in 2024
+                while maintaining a GROWTH culture all year long.
+              </p>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- End About Section -->
 
-        <div class="bonus-container">
+      <!-- ======= note Section ======= -->
+      <section id="about" class="goal-setting">
+        <div class="container text-center">
+          <h2 class="sizeable-text">
+            Why Use Growth Planning instead of Goal Setting?
+          </h2>
+          <div class="setting-container">
+            <div class="con-1">
+              <h2>This Is Beyond Traditional Goals</h2>
+              <span class="span-line-1"></span>
+              <p>
+                Say goodbye to the limitations of traditional goal setting.
+                Discover the power of growth planning, a dynamic approach that
+                guarantees better and faster results. 
+              </p>
+            </div>
+            <div class="con-2">
+              <h2>Predictable Success In 2024</h2>
+              <span class="span-line-2"></span>
+              <p>
+                Goals can be static, but growth is continuous. Learn how to
+                cultivate a mindset focused on continual improvement and
+                predictable success. 
+              </p>
+            </div>
+            <div class="con-3">
+              <h2>A Personalized Roadmap To A Better Year </h2>
+              <span class="span-line-3"></span>
+              <p>
+                Discover a unique system to craft your personalized road map for
+                growth in your personal life, career, business, and finance. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= note Section ======= -->
+      <section id="about" class="what-you-get">
+        <div class="container text-center">
+          <h2 class="sizeable-text">What You Will Get In This Course</h2>
+
+          <div class="wyg mt-5">
+            <!-- content  -->
+            <div class="wyg-container-1">
+              <div class="wyg-heading">
+                <img src="./assets/img/wyg-1.svg" alt="" />
+                <h3>Strategic Roadmap for Growth in 2024</h3>
+              </div>
+              <p class="m-3">
+                Uncover the framework behind a better and faster result. Develop
+                a personalized growth plan tailored to your personal or
+                professional needs.
+              </p>
+            </div>
+            <div class="wyg-container-1">
+              <div class="wyg-heading">
+                <img src="./assets/img/wyg-2.svg" alt="" />
+                <h3>Growth Planning Workshop </h3>
+              </div>
+              <p class="m-3">
+                Utilize the 3S framework you will learn in this event to design
+                a personalized growth plan for any area of your life.
+              </p>
+            </div>
+            <div class="wyg-container-1">
+              <div class="wyg-heading">
+                <img src="./assets/img/wyg-3.svg" alt="" />
+                <h3>Community Support & Accountability  </h3>
+              </div>
+              <p class="m-3">
+                You will gain access to an online community of growth
+                enthusiasts and administrators who will keep you accountable for
+                your growth plan all year long. 
+              </p>
+            </div>
+            <div class="wyg-container-1">
+              <div class="wyg-heading">
+                <img src="./assets/img/wyg-4.svg" alt="" />
+                <h3>Quarterly Reviews   </h3>
+              </div>
+              <p class="m-3">
+                A one-time payment will allow you to review your growth plan
+                with us and track your progress every quarter through 2024. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section-seat">
+        <div class="container">
           <div class="row">
-            <div class="col-md-4">
-              <img src="./assets/img/bonus-2.jpg" alt="">
+            <div class="col-md-6" style="text-align: right">
+              <img
+                src="./assets/img/secure-seat.png"
+                class="img-fluid"
+                alt=""
+              />
             </div>
-            <div class="col-md-8">
-              <div class="bonus-details">
-                <h3>Get FREE Access To The Blueprint Video Course  </h3>
-                <p>I'll be developing an online course/workshop for everyone who joins the blueprint. You'll be able to log into your dashboard with lifetime access to the Blueprint course.</p>
-                <b>What's more</b>
-                <p>Gain Lifetime access to Blueprint courses.</p>
+            <div class="col-md-6">
+              <div class="seat-details">
+                <h2>Ready to Access Your Blueprint for Success in 2024?</h2>
+                <p>
+                  Sign up for the <b>Growth Planning Workshop</b> and chart your
+                  course for success in 2024.
+                </p>
+                <p>
+                  Break free from the limitations of traditional goal setting
+                  and embrace the dynamic power of growth planning.
+                </p>
+                <div class="seat-btn">Secure Your Blueprint Seat Now</div>
               </div>
-               </div>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div href="#" class="join-btn">Join now</div>
-      </div>
-    </section>
+      <section id="about" class="bonus">
+        <div class="container text-center">
+          <h2 class="bonus-text-h2">Bonus!</h2>
+          <p class="bonus-text-p">
+            I've got more for you! You Get These 2 Additional Bonuses Too When
+            You Join
+            <span style="color: #540d6e"><b> The Blueprint Today! </b></span>
+          </p>
 
-    
+          <div class="bonus-container">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./assets/img/bonus-1.jpg" alt="" />
+              </div>
+              <div class="col-md-8">
+                <div class="bonus-details">
+                  <h3>Pre-Order My New Book at a 60% discount </h3>
+                  <p>
+                    I'll be spending the better part of 2024 working on my new
+                    book
+                    <b>
+                      "Strategies, Structures & Systems: Developing a Growth
+                      Plan."</b
+                    >  This book will serve as a practical guide to creating a
+                    growth plan for any area of your life.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <!-- ======= Contact Section ======= -->
-    <!-- iamjohngospel Section -->
-    <!-- <section id="about" class="newsletter-jg">
+          <div class="bonus-container">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./assets/img/bonus-2.jpg" alt="" />
+              </div>
+              <div class="col-md-8">
+                <div class="bonus-details">
+                  <h3>Get FREE Access To The Blueprint Video Course  </h3>
+                  <p>
+                    I'll be developing an online course/workshop for everyone
+                    who joins the blueprint. You'll be able to log into your
+                    dashboard with lifetime access to the Blueprint course.
+                  </p>
+                  <b>What's more</b>
+                  <p>Gain Lifetime access to Blueprint courses.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div href="#" class="join-btn">Join now</div>
+        </div>
+      </section>
+
+      <!-- ======= Contact Section ======= -->
+      <!-- iamjohngospel Section -->
+      <!-- <section id="about" class="newsletter-jg">
       <div class="container">
         <div class="row newsletter-jg-row">
           <div class="col-md-5 order-1 order-md-1 newsletter-jg-img" data-aos="fade-left">
@@ -278,47 +383,60 @@
         </div>
       </div>
     </section> -->
-    <!--End Section -->
-    <!-- End Contact Section -->
+      <!--End Section -->
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
-  </main>
-  <!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="container d-md-flex py-4">
-
-      <div class="me-md-auto text-center text-md-start">
-        <div class="footer-left">
-          <a href="index.html"><img src="./assets/img/footer-img.svg" class="img-fluid" alt=""></a>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="footer-left">
+            <a href="index.html"
+              ><img src="./assets/img/footer-img.svg" class="img-fluid" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="https://twitter.com/_JohnGospel" class="twitter"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100005587274263&mibextid=ZbWKwL"
+            class="facebook"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://instagram.com/john.gospel" class="instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="gospeletis@gmail.com" class="google-plus"
+            ><i class="bx bxs-envelope"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/johngospel" class="linkedin"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
         </div>
       </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="https://twitter.com/_JohnGospel" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=100005587274263&mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://instagram.com/john.gospel" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="gospeletis@gmail.com" class="google-plus"><i class='bx bxs-envelope' ></i></a>
-        <a href="https://www.linkedin.com/in/johngospel" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </footer>
-  <!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
