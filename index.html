@@ -242,6 +242,8 @@
         </div>
       </section>
 
+      
+
       <section id="about" class="my-community">
         <div class="container">
           <div class="community">
@@ -275,6 +277,8 @@
                     <img src="./assets/img/24march/w1.jpg" alt="">
                   </div>
                 </div>
+
+                
               </div>
             </div>
           </div>
@@ -337,5 +341,34 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script>
+        const slider = document.querySelector('.engagement-container');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        slider.addEventListener('mousedown', (e) => {
+          isDown = true;
+          slider.classList.add('active');
+          startX = e.pageX - slider.offsetLeft;
+          scrollLeft = slider.scrollLeft;
+        });
+        slider.addEventListener('mouseleave', () => {
+          isDown = false;
+          slider.classList.remove('active');
+        });
+        slider.addEventListener('mouseup', () => {
+          isDown = false;
+          slider.classList.remove('active');
+        });
+        slider.addEventListener('mousemove', (e) => {
+          if(!isDown) return;
+          e.preventDefault();
+          const x = e.pageX - slider.offsetLeft;
+          const walk = (x - startX) * 1; //scroll-fast
+          slider.scrollLeft = scrollLeft - walk;
+          console.log(walk);
+  });
+      </script>
   </body>
 </html>

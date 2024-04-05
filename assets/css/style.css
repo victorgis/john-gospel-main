@@ -526,6 +526,11 @@ nav ul li a.menu-btn:hover {
   #hero {
     height: auto;
   }
+  #hero .hero-main {
+    text-align: center;
+    padding: 0 10px;
+    margin: 10px auto 0;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -696,6 +701,9 @@ div.who-is-jg {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+.jg-area-details {
+  margin: 0px;
+}
 .jg-area-details h3 {
   margin: 0;
   padding: 10px 20px;
@@ -847,7 +855,62 @@ div.who-is-jg {
   line-height: 36px;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  z-index: 10;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+}
+.swiper-button-prev {
+  left: 10px;
+}
+.swiper-button-next {
+  right: 10px;
+}
+
 @media (max-width: 992px) {
+  .socials-bg ul li {
+    padding: 20px 10px;
+  }
+  .socials-bg ul {
+    gap: 0px; /* Gap between icons */
+  }
+  .socials-bg ul li i {
+    color: #fff; /* Icon color */
+    font-size: 25px; /* Icon size */
+  }
+  .offer {
+
+  border-radius: 10px;
+  padding: 18px;
+  margin: 0px;
+  height: 500px;
+}
+.offer-2 {
+
+  border-radius: 10px;
+  padding: 18px;
+  margin: 0px;
+  height: 560px;
+}
+
+
+
+
+
+  .jg-area {
+    display: block;
+    /* grid-template-columns: repeat(4, 1fr); */
+  }
   .who-is-jg-img {
     display: none;
   }
