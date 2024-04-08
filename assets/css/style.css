@@ -723,6 +723,7 @@ div.who-is-jg {
 
 .jg-area-img-1 {
   background-image: url("../img/24march/file10-24.png");
+  background-size: cover;
   height: 277px;
   color: rgba(0, 0, 0, 0);
   position: relative;
@@ -742,6 +743,7 @@ p.jg-text-1, p.jg-text-2, p.jg-text-3, p.jg-text-4 {
 
 .jg-area-img-2 {
   background-image: url("../img/24march/file8-24.png");
+  background-size: cover;
   height: 277px;
   color: rgba(0, 0, 0, 0);
   position: relative;
@@ -754,6 +756,7 @@ p.jg-text-1, p.jg-text-2, p.jg-text-3, p.jg-text-4 {
 }
 .jg-area-img-3 {
   background-image: url("../img/24march/file7-24.png");
+  background-size: cover;
   height: 277px;
   color: rgba(0, 0, 0, 0);
   position: relative;
@@ -766,6 +769,7 @@ p.jg-text-1, p.jg-text-2, p.jg-text-3, p.jg-text-4 {
 }
 .jg-area-img-4 {
   background-image: url("../img/24march/file6-24.png");
+  background-size: cover;
   height: 277px;
   color: rgba(0, 0, 0, 0);
   position: relative;
